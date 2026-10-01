@@ -1,0 +1,4 @@
+Mi IP Publica es: 2802:8010:b120:f201:c439:4c92:2c84:a211
+Mi usuario es: apegni
+El Hash de mi Usuario es: $y$j9T$wjMWLiu2kMWAGhwUBUKf74L9$gebXD54MunXYvcL41Z944wQTA8k3SjAoLf8XJdgkNG7
+La URL de mi repositorio es: https://github.com/Chutulu95/UTNFRA_SO_1P2C_2024_Alan_Pegni.git
