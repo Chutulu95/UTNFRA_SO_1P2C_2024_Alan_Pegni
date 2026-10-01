@@ -52,6 +52,14 @@ n
 w
 EOF
 
+echo
+echo 'Particiones completadas'
+echo
+
+echo
+echo 'Inicio de formateo'
+echo
+
 
 sudo mkfs.ext4 -F /dev/sdb1
 sudo mkfs.ext4 -F /dev/sdb2
@@ -64,6 +72,14 @@ sudo mkfs.ext4 -F /dev/sdb8
 sudo mkfs.ext4 -F /dev/sdb9
 sudo mkfs.ext4 -F /dev/sdb10
 sudo mkfs.ext4 -F /dev/sb11
+
+echo
+echo 'Formateo terminado'
+echo
+
+echo
+echo 'Montando'
+echo
 
 
 echo "/dev/sdb1 /Examenes-UTN/alumno_1/parcial_1 ext4 defaults 0 0" | sudo tee -a /etc/fstab
@@ -79,4 +95,7 @@ echo "/dev/sdb10 /Examenes-UTN/profesores ext4 defaults 0 0" | sudo tee -a /etc/
 
 sudo mount -a
 
+echo
+echo 'Montado'
+echo
 
